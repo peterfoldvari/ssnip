@@ -47,20 +47,28 @@ Dobbs, Ian M. (2002) The assessment of market power and market boundaries using 
 Dobbs, Ian. M. (2003) Demand, Cost Elasticities and Pricing Benchmarks in the Hypothetical Monopoly Test: The Consequences of a Simple SSNIP. Applied Economics Letters 10.9: 545–548.
 
 # Examples
+
  Define the input vectors and matrix
- P <- c(1.5,1,1.2)
- Q <- c(18,20,5)
- M <- c(0.2, 0.4, 0.6)
- elast <- cbind(c(-3,1,1.1),c(1.1,-4,2.1),c(0.9,0.9,-1.5))
- z <- 0.05
+
+P <- c(1.5,1,1.2)
+
+Q <- c(18,20,5)
+
+M <- c(0.2, 0.4, 0.6)
+
+elast <- cbind(c(-3,1,1.1),c(1.1,-4,2.1),c(0.9,0.9,-1.5))
+
+z <- 0.05
 
  Testing for the 1st and 2nd goods:
- R <- c(1,1,0)
- ssnip(P, Q,M,elast,z,R)
 
- Testing for alll possible combinations:
- sel_ssnip(P, Q,M,elast,z)
+R <- c(1,1,0)
 
+ssnip(P, Q,M,elast,z,R)
+
+ Testing for all possible combinations:
+
+sel_ssnip(P, Q,M,elast,z)
 
 # Installation
 
