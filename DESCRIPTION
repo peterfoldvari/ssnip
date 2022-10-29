@@ -1,11 +1,14 @@
 Package: ssnip
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Hypothetical Monopoly Test
+Version: 0.1
+Author: Peter Foldvari
+Maintainer: P. Foldvari <p.foldvari@uva.nl>
+Description: 
+SNIP stands for the Small but Significant, Non-transitory Increase in Price method 
+to find a set of goods that constitute a market. It is often used to asses the impact of mergers and acquisitions.
+
+ssnip tests for a predefined subset of k goods, sel_ssnip tests for al possible combination of all k goods.
+License: MIT Licence
 Encoding: UTF-8
 LazyData: true
