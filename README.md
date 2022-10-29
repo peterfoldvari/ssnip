@@ -10,16 +10,24 @@ SSNIP stands for the *Small but Significant, Non-transitory Increase in Price* m
 
 This code is based on a 2002 online manuscript and a 2003 published paper by Ian M. Dobbs (Professor (Emeritus) of Business Economics and Finance, Newcastle University Business School)
 
-# Usage
+# Usage 
+
   ssnip(P,Q,M,elast,z,R)
-  sel_ssnip(P,Q,M,elast,z)
+
+sel_ssnip(P,Q,M,elast,z)
 
 # Arguments
+
 P:	kx1 column vector of unit price
+
 Q:	kx1 column vector of quantity sold
+
 M:	kx1 column vector of the percentage markup of price above marginal cost (Lerner Index)
+
 elast: kxk matrix of price elasticites
+
 z:	scalar, the assumed increase in price (eg: 0.05 stand for 5%)
+
 R:	kx1 vector of restrictions selecting a subset of goods
 
 # Values
