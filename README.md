@@ -72,6 +72,6 @@ sel_ssnip(P, Q,M,elast,z)
 
 # Installation
 
-Intall from R, with: 
+Intall from R with: 
 
 remotes::install_github("peterfoldvari/ssnip")
